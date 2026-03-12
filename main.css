@@ -1,0 +1,15 @@
+.form{
+ width: 90%;
+ margin: 0 auto;
+}
+
+table, th, td, tr {
+ margin: 0 auto;
+ width: 90%;
+ border-collapse: collapse;
+ border: 1px solid black;
+}
+fieldset{
+ width: 90%;
+ margin: 0 auto;
+}

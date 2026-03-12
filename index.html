@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset='utf-8'>
+ <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+ <title>Page Title</title>
+ <meta name='viewport' content='width=device-width, initial-scale=1'>
+ <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+
+<body>
+ <h1> Meu Carrinho &#128722</h1>
+ <h4> Insira os produtos </h4>
+ <fieldset class="form">
+
+  <legend>Produtos</legend>
+
+  <label for="item">Item:</label>
+  <input type="text" id="item" name="item">
+
+  <label for="quantidade">Quantidade:</label>
+  <input type="number" id="quantidade" name="quantidade">
+
+  <label for="preco">Preço(un):</label>
+  <input type="number" id="preco" name="preco" step="0.01">
+
+  <button id="adicionar">Adicionar</button>
+
+ </fieldset>
+
+ <fieldset>
+
+  <legend> Produtos no Carrinho </legend>
+
+  <table>
+
+   <thead>
+    <tr>
+     <th>Item</th>
+     <th>Quantidade</th>
+     <th>Preço(un)</th>
+     <th>Preço(total)</th>
+     <th>Remover</th>
+    </tr>
+   </thead>
+
+   <tbody id="lista">
+    <th>Teste</th>
+    <th>Teste</th>
+    <th>Teste</th>
+    <th>Teste</th>
+    <th><button>Remover</button></th>
+   </tbody>
+
+   <tbody id="lista2">
+    <th>Teste</th>
+    <th>Teste</th>
+    <th>Teste</th>
+    <th>Teste</th>
+    <th><button>Remover</button></th>
+   </tbody>
+
+   <tfoot>
+    <tr>
+     <td colspan="3">Total</td>
+     <td id="total">0.00</td>
+    </tr>
+   </tfoot>
+
+  </table>
+
+ </fieldset>
+
+ <p>Teste de item</p>
+ <script src='main.js'></script>
+</body>
+
+</html>
